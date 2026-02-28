@@ -1,0 +1,34 @@
+body {
+  background: black;
+  color: lime;
+  text-align: center;
+  font-family: Arial;
+}
+
+.box, .prediction {
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  border: 2px solid lime;
+}
+
+#heatmap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+}
+
+.big {
+  background: red;
+}
+
+.small {
+  background: blue;
+}
